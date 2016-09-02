@@ -1,0 +1,40 @@
+@media print {
+@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,400,500,600,700|Source+Sans+Pro:300,400,600,700,900|Ubuntu:300,400,500,700';
+
+header {
+    background: #fff;
+}
+
+header img {
+    height: 130px;
+}
+
+body {
+    background: #fff;
+}
+
+h2{
+	font: "Ubuntu", Arial, sans-serif;
+}
+
+@page {
+margin: 0.5cm;
+font: "Ubuntu", Arial, sans-serif;
+}
+
+.conteudo{
+	padding: 20px;
+}
+.container{
+	width: 100%;
+	display: block;
+}
+
+p{
+	text-indent: 4.5em;
+	text-align: justify;
+	font-family: "Ubuntu", Arial, sans-serif;
+}
+
+.page-break	{ display: block; page-break-before: always; }
+}
